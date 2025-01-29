@@ -2,7 +2,7 @@
   "name": "shards-dashboard-lite-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "./intero/",
+  "homepage": "./",
   "dependencies": {
     "@babel/helper-builder-react-jsx": "^7.16.7",
     "@emotion/react": "^11.8.1",
