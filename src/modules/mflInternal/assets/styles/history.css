@@ -1,0 +1,34 @@
+.avatar {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #0dc143 !important;
+}
+
+.update-date {
+  color: #0c91c5;
+}
+
+.history-title {
+  font-weight: bold !important;
+}
+
+datalist {
+  display: none !important;
+}
+
+.see-details:hover{
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+/* .card__header-type-label{
+  background-color: black;
+  display: flex;
+  height: 24px !important;
+  align-items: center;
+  justify-content: center;
+} */
+
+.card__header-type-label h5{
+  margin: 0 !important;
+}

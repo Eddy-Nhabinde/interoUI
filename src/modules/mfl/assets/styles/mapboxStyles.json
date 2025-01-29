@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Navigation",
+    "styleName": "Navigation",
+    "styleUrl": "mapbox://styles/mapbox/navigation-day-v1"
+  },
+  {
+    "label": "Light",
+    "styleName": "Light",
+    "styleUrl": "mapbox://styles/mapbox/light-v10"
+  },
+  {
+    "label": "Night",
+    "styleName": "Night",
+    "styleUrl": "mapbox://styles/mapbox/navigation-night-v1"
+  },
+  {
+    "label": "Satellite",
+    "styleName": "Satellite",
+    "styleUrl": "mapbox://styles/mapbox/satellite-v9"
+  }
+]

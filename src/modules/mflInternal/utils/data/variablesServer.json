@@ -1,0 +1,23 @@
+{
+    "displayName": "System",
+    "id": "server",
+    "placeholder": "Select a system",
+    "valueType": "LIST",
+    "options": [
+        {
+            "uuid": 1,
+            "id": "SISMA",
+            "url": "https://sisma.misau.gov.mz/sisma"
+        },
+        {
+            "uuid": 2,
+            "id": "HOSP",
+            "url": "https://apolo.hispmoz.org/mhosp"
+        },
+        {
+            "uuid": 3,
+            "id": "SIVE",
+            "url": "https://sis.misau.gov.mz/staging"
+        }
+    ]
+}

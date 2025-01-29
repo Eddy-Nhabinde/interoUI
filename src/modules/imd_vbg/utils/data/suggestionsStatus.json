@@ -1,0 +1,23 @@
+{
+  "displayName": "Estado",
+  "id": "status",
+  "placeholder": "Seleccione o estado",
+  "valueType": "LIST",
+  "options": [
+    {
+      "id": "1",
+      "name": "Pendente",
+      "code": "PENDENT"
+    },
+    {
+      "id": "2",
+      "name": "Aprovada",
+      "code": "APPROVED"
+    },
+    {
+      "id": "3",
+      "name": "Rejeitada",
+      "code": "UNAPPROVED"
+    }
+  ]
+}

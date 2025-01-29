@@ -1,0 +1,95 @@
+#mapHome {
+  margin: auto;
+  height: 680px;
+}
+
+/* @media (max-width: 600px)
+{
+  #mapHome {
+    margin: auto;
+    height: calc(100vh - 110px) !important;
+  }
+} */
+
+#mapDetails {
+  margin: auto;
+  height: 470px;
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.mapbox-control-styles button {
+  box-shadow: 1px 2px rgb(228, 227, 227) !important;
+}
+
+.mapboxgl-ctrl-group {
+  box-shadow: none !important;
+}
+
+.marker-default {
+  background-image: url("../images/marker.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker-rural {
+  background-image: url("../images/marker1.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker-urban {
+  background-image: url("../images/marker4.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker-private {
+  background-image: url("../images/marker10.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.increase-marker{
+  width: 70px !important;
+  height: 70px !important;
+  cursor:  context-menu;
+}
+
+.my-custom-control {
+  color: gray;
+  font-weight: bold;
+  background-color: #ffff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.legend-box {
+  width: auto;
+  position: absolute;
+  bottom: 17px;
+  right: 21px;
+  background-color: rgba(255, 255, 255);
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.marker-legend {
+  width: 30px;
+  height: 30px;
+}

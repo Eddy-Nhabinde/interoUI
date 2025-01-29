@@ -1,0 +1,105 @@
+.icons i{
+    font-size: 2.5rem !important;
+}
+
+.module__select-label{
+    font-size: 1.5rem;
+}
+
+.module-card .card__header{
+    display: center;
+    height: 50px;
+}
+
+.module-card-icon{
+    min-width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.card__body{
+    padding-left: 10px;
+}
+
+.card__body .card-subtitle{
+    font-size: 0.8rem !important;
+}
+
+.card__header{
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.module-card__onFocus-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    z-index: 10;
+    border-radius: 0.625rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.module-card__onFocus-wrapper .content{
+    display: none;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.module-card__onFocus-wrapper .content::-webkit-scrollbar{
+    display: none;
+}
+
+.module-card__onFocus-wrapper .content i{
+    font-size: 2rem;
+}
+
+.module-card:hover > .module-card__onFocus-wrapper{
+    width: 100%;
+}
+
+.module-card:hover > .module-card__onFocus-wrapper .content{
+    display: flex;
+}
+
+.module-desc{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.info-btn{
+    display: none;
+    color: white;
+    position: absolute;
+    margin: 10px;
+    font-size: 1.2rem;
+    right: 0;
+    top: 0;
+}
+
+.moduleSelectableCard-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moduleSelectableCard-card{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+    cursor: pointer;
+}
+
+.p-checkbox .p-checkbox-box{
+    border-radius: 11px !important;
+}

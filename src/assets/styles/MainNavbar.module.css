@@ -1,0 +1,19 @@
+.Navbar {
+    margin-top: -10px;
+}
+
+.nav {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.navMediaQuery550 {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.navMediaQuery900 {
+    display: grid !important;
+    grid-template-columns: 30% 70% !important;
+    justify-content: space-between !important;
+}

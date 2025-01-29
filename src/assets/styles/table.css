@@ -1,0 +1,173 @@
+/* Responsive Table*/
+
+@media(max-width: 550px) {
+    .table thead {
+        display: none !important;
+    }
+
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+
+    .table tr{
+        margin-bottom: 15px !important;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .table td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: none !important;
+    }
+
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0 !important;
+        text-align: left;
+        width: 50%;
+        font-size: 15px !important;
+        font-weight: 700;
+        padding-left: 15px;
+    }
+
+}
+
+.download-table-xls-button{
+    height: 35px;
+}
+
+.file_expoter-dropdown .dropdown-menu{
+    top: 40px !important;
+}
+
+.file_expoter-dropdown .dropdown-item{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.file_expoter-dropdown .dropdown-menu .dropdown-sublist{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.file_expoter-dropdown .dropdown-menu button{
+    height: 36px;
+    width: 100% !important;
+}
+
+
+.fill__tableRow{
+    background-color: #fdf6f6 !important;
+}
+
+.fill__tableRow-yellow{
+    background-color: #fafaeb !important;
+}
+
+
+.modal-card{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    width: auto;
+}
+
+.modal-card .title{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.imports-count .modal-card .data{
+    text-align: center;
+}
+
+.imports-count .modal-card .title{
+    text-align: center;
+}
+
+.Apagados{
+    height: auto;
+}
+
+.Importados{
+    height: auto;
+}
+
+.Actualizados{
+    height: auto;
+}
+
+.Ignorados{
+    height: auto;
+} 
+
+
+
+.Apagados .title{
+    color: #fa6c78 !important;
+    height: auto;
+}
+
+.Importados .title{
+    color: #63ce7c !important;
+    height: auto;
+}
+
+.Actualizados .title{
+    color: #dfbf56 !important;
+    height: auto;
+}
+
+.Ignorados .title{
+    color: #737a7e !important;
+    height: auto;
+} 
+
+.outline{
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    max-width: 115px !important;
+}
+
+.data-element__link{
+    color: rgb(102, 102, 238);
+}
+
+.dropdown-menu__table-exporter{
+   min-width:7rem !important;
+   padding: 2px !important;
+}
+
+.dropdown-menu__table-exporter .dropdown-item{
+    padding: 0 !important;
+}
+
+.dropdown-menu__table-exporter button{
+    background-color: white !important;
+    border-color: white;
+}
+
+.dropdown-menu__table-exporter .pi-file-pdf{
+    color: #c4183c;
+    font-size: 1.2rem;
+}
+
+.dropdown-menu__table-exporter .pi-file-excel{
+    color: #63ce7c;
+    font-size: 1.2rem;
+}
+
+.external-user_table{
+    height: calc(500px - 175px);
+    overflow-y: auto;
+}

@@ -1,0 +1,14 @@
+{
+    "displayName": "User type",
+    "id": "userType",
+    "placeholder": "Select user type",
+    "valueType": "LIST",
+    "options": [
+        {
+            "id": "Internal"
+        },
+        {
+            "id": "External"
+        }
+    ]
+}

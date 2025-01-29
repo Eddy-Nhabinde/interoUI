@@ -1,0 +1,22 @@
+.avatar {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #0dc143 !important;
+}
+
+.update-date {
+  color: #0c91c5;
+}
+
+.history-title {
+  font-weight: bold !important;
+}
+
+datalist {
+  display: none !important;
+}
+
+.see-details:hover{
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}

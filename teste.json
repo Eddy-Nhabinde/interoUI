@@ -1,0 +1,69 @@
+{
+    "userType": "Organization",
+    "id": "fG6sdf152",
+    "sections": [
+        {
+            "displayName": "Organization",
+            "dataElements": [
+                {
+                    "id": "",
+                    "valueType": "TEXT",
+                    "displayName": "Name",
+                    "placeholder": "Organization Name"
+                },
+                {
+                    "id": "",
+                    "valueType": "EMAIL",
+                    "displayName": "Email",
+                    "placeholder": "Organization email"
+                }
+            ]
+        },
+        {
+            "displayName": "Focal Point",
+            "dataElements": [
+                {
+                    "id": "",
+                    "valueType": "TEXT",
+                    "displayName": "Name",
+                    "placeholder": "Name"
+                },
+                {
+                    "id": "",
+                    "valueType": "TEXT",
+                    "displayName": "Position",
+                    "placeholder": "Position"
+                },
+                {
+                    "id": "",
+                    "valueType": "EMAIL",
+                    "displayName": "Email",
+                    "placeholder": "Email"
+                },
+                {
+                    "id": "",
+                    "valueType": "PHONE_NUMBER",
+                    "displayName": "Contact",
+                    "placeholder": "Telephone"
+                }
+            ]
+        },
+        {
+            "displayName": "Access data",
+            "dataElements": [
+                {
+                    "id": "",
+                    "valueType": "TEXT",
+                    "displayName": "Username",
+                    "placeholder": "Username"
+                },
+                {
+                    "id": "",
+                    "valueType": "PASSWORD",
+                    "displayName": "Password",
+                    "placeholder": "Password"
+                }
+            ]
+        }
+    ]
+}
